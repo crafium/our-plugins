@@ -27,8 +27,8 @@ const Wrapper = styled.div`
 const Header = styled.div`
 	display: flex;
 	flex-direction: column;
-	gap: 16px;
-	margin-bottom: 22px;
+	gap: 8px;
+	margin-bottom: 15px;
 `;
 
 const PageTitle = styled.h2`
