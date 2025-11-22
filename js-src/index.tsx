@@ -440,7 +440,7 @@ export default function OurPlugins( {
 				<StyledModal
 					onRequestClose={ handleCloseModal }
 					isFullScreen={ false }
-					style={ { maxWidth: '800px', width: '90%' } }
+					style={ { maxWidth: '800px', width: '90%', maxHeight: 'inherit !important' } }
 				>
 					<ModalIframeWrapper>
 						<LoadingSpinnerWrapper $isLoading={ isIframeLoading }>
