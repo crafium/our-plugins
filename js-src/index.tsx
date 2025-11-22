@@ -20,7 +20,6 @@ const Wrapper = styled.div`
 	display: flex;
 	flex-direction: column;
 	padding: 24px;
-	background: #fff;
 	font-family: var( --wp-admin-font-family );
 	min-height: calc( 100vh - 32px );
 `;
@@ -29,21 +28,20 @@ const Header = styled.div`
 	display: flex;
 	flex-direction: column;
 	gap: 16px;
-	margin-bottom: 32px;
+	margin-bottom: 22px;
 `;
 
-const PageTitle = styled.h1`
-	font-size: 1.5rem;
+const PageTitle = styled.h2`
+	font-size: 20px;
 	font-weight: 600;
 	margin: 0;
 	color: #1e1e1e;
 `;
 
 const PageSubtitle = styled.p`
-	font-size: 14px;
-	font-weight: 400;
+	font-size: 13px;
 	margin: 0;
-	color: #646970;
+	color: #6b7280;
 	line-height: 1.5;
 `;
 
@@ -65,8 +63,8 @@ const PluginItem = styled.div`
 	gap: 20px;
 	padding: 20px;
 	background: #fff;
-	border: 1px solid #e0e0e0;
-	border-radius: 8px;
+	border: 1px solid #eee;
+	border-radius: 4px;
 	position: relative;
 `;
 
@@ -109,7 +107,7 @@ const PluginTitle = styled.h3`
 `;
 
 const PluginDescription = styled.p`
-	font-size: 14px;
+	font-size: 0.85rem;
 	color: #1e1e1e;
 	margin: 0;
 	line-height: 1.6;
@@ -234,9 +232,11 @@ const ModalCloseButton = styled( Button )`
 export default function OurPlugins( {
 	initialPlugins,
 	installNonce,
+	style
 }: {
 	initialPlugins: Plugin[];
 	installNonce: string;
+	style?: React.CSSProperties;
 } ) {
 	const [ selectedPluginSlug, setSelectedPluginSlug ] = useState<
 		string | null
@@ -337,7 +337,7 @@ export default function OurPlugins( {
 	};
 
 	return (
-		<Wrapper>
+		<Wrapper style={ style }>
 			<Header>
 				<PageTitle>{ __( 'Our Plugins' ) }</PageTitle>
 				<PageSubtitle>
