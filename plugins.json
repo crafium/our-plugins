@@ -1,0 +1,16 @@
+[
+	{
+	  "name": "X-Currency – The Ultimate WooCommerce currency switcher for a smoother shopping experience",
+	  "slug": "x-currency",
+	  "description": "Woo Currency Switcher lets you handle multi-currency seamlessly, allowing customers to switch currencies on your WooCommerce store easily.",
+	  "logoURL": "https://ps.w.org/x-currency/assets/icon-256x256.gif",
+	  "docsURL": "https://doatkolom.com/docs/x-currency/"
+	},
+	{
+	  "name": "OptinCraft – The Powerful Drag & Drop Popup Builder for WordPress",
+	  "slug": "optincraft",
+	  "description": "Build stunning and high-converting popups with OptinCraft, the powerful drag and drop popup builder for WordPress to boost sales and engagement.",
+	  "logoURL": "https://ps.w.org/optincraft/assets/icon-256x256.png",
+	  "docsURL": "https://crafium.com/docs/optincraft/"
+	}
+]

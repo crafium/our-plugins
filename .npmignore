@@ -1,0 +1,12 @@
+# Ignore Vite config files
+vite.config.js
+vite.config.ts
+vite.config.mjs
+
+# Ignore source files
+src/
+js-src/
+tsconfig.json
+composer.json
+composer.lock
+plugins.json

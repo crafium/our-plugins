@@ -1,0 +1,10 @@
+* text=auto
+
+/plugins.json export-ignore
+/js-src export-ignore
+/vite.config.ts export-ignore
+/tsconfig.json export-ignore
+/package.json export-ignore
+/package-lock.json export-ignore
+/pnpm-lock.yaml export-ignore
+/pnpm-workspace.yaml export-ignore
