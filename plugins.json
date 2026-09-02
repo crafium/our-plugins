@@ -12,5 +12,12 @@
 	  "description": "Build stunning and high-converting popups with OptinCraft, the powerful drag and drop popup builder for WordPress to boost sales and engagement.",
 	  "logoURL": "https://ps.w.org/optincraft/assets/icon-256x256.png",
 	  "docsURL": "https://crafium.com/docs/optincraft/"
+	},
+	{
+	  "name": "AppNatively – AI-Powered Native App Builder for iOS & Android",
+	  "slug": "appnatively",
+	  "description": "Convert your website into a production-ready native iOS and Android app with an AI-powered visual builder, without writing code.",
+	  "logoURL": "https://ps.w.org/appnatively/assets/icon-256x256.png",
+	  "docsURL": "https://appnatively.com/docs/knowledge-base"
 	}
 ]
